@@ -4,6 +4,7 @@
 #include <string.h> // strlen()
 #include <unistd.h> // read() and write()
 #include <signal.h> // for SIGCHLD
+#include <sys/types.h> // for pid
 #include <stdio.h>
 #include <sys/types.h> 
 #include <sys/socket.h>

@@ -35,7 +35,7 @@ void dostuff(int newsockfd)
 int main(int argc, char *argv[])
 {
      int sockfd, newsockfd, portno, clilen;
-     pidt pid; // declare pid
+     pid_t pid; // declare pid
      struct sockaddr_in serv_addr, cli_addr;
      if (argc < 2) {
          fprintf(stderr,"ERROR, no port provided\n");

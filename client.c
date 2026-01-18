@@ -1,4 +1,8 @@
+
 #include <stdio.h>
+#include <stdlib.h> // exit() and atoi()
+#include <string.h> // strlen()
+#include <unistd.h> // read() and write()
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>

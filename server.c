@@ -1,5 +1,8 @@
 /* A simple server in the internet domain using TCP
    The port number is passed as an argument */
+#include <stdlib.h> // exit() and atoi()
+#include <string.h> // strlen()
+#include <unistd.h> // read() and write()
 #include <stdio.h>
 #include <sys/types.h> 
 #include <sys/socket.h>

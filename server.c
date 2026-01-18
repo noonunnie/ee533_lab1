@@ -3,6 +3,7 @@
 #include <stdlib.h> // exit() and atoi()
 #include <string.h> // strlen()
 #include <unistd.h> // read() and write()
+#include <signal.h> // for SIGCHLD
 #include <stdio.h>
 #include <sys/types.h> 
 #include <sys/socket.h>
